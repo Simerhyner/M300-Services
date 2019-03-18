@@ -1,8 +1,8 @@
-LB2
+# LB2
 
-1.  Umgebung einrichten
+##  Umgebung einrichten
 
-    1.  VirtualBox
+##  VirtualBox
 
 Die Applikation VirtualBox installieren.
 
@@ -41,7 +41,7 @@ Die Applikation Vagrant installieren.
 
 1.  VM über VirtualBox-GUI ausschalten
 
-    1.  Visualstudio Code
+## Visualstudio Code
 
 Die Applikation Visualstudio Code installieren.
 
@@ -113,16 +113,16 @@ ausgeführt.
 
 *ssh-keygen -t rsa -b 4096 -C "beispiel\@beispiel.com"*
 
-1.  Neuer SSH-Key wird erstellt:
+ Neuer SSH-Key wird erstellt:
 
 *Generating public/private rsa key pair.*
 
-1.  Bei der Abfrage, unter welchem Namen der Schlüssel gespeichert werden soll,
+  Bei der Abfrage, unter welchem Namen der Schlüssel gespeichert werden soll,
     die Enter-Taste drücken (für Standard):
 
 *Enter a file in which to save the key (\~/.ssh/id_rsa): [Press enter]*
 
-1.  Nun kann ein Passwort für den Key festgelegt werden. Ich empfehle dieses zu
+ Nun kann ein Passwort für den Key festgelegt werden. Ich empfehle dieses zu
     setzen und anschliessend dem SSH-Agent zu hinterlegen, sodass keine erneute
     Eingabe (z.B. beim Pushen) notwendig ist:
 
@@ -160,9 +160,9 @@ ausgeführt.
 
 >   *git config --global user.email "\<e-mail\>"*
 
-1.  Vagrant
+## Vagrant
 
-    1.  VM aus Vagrant einrichten
+## VM aus Vagrant einrichten
 
 Wie ich die VM eingerichtet habe ist bereits 1.2.1 dokumentiert.
 
@@ -208,9 +208,9 @@ Mit diesem fügt man sie dem Vagrantinstaller zu:
 Danach kann man sie ganz normal mit dem Befehl *vagrant init mynewbox*
 installieren.
 
-1.  Sicherheitsaspekte
+## Sicherheitsaspekte
 
-    1.  Firewall
+## Firewall
 
 Ich habe die UFW Firewall gearbeitet.
 
